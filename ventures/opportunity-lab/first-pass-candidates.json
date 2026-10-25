@@ -1,0 +1,172 @@
+[
+  {
+    "id": "lead-intake-approval-workflow",
+    "name": "Small-business lead intake, CRM update and approval-gated follow-ups",
+    "buyer": "Owner/operators using one website form or inbox and a CRM",
+    "problem": "Leads are manually copied and follow-ups are delayed or forgotten",
+    "evidence": [
+      {
+        "url": "https://www.upwork.com/freelance-jobs/apply/Automation-Specialist-Needed-for-Lead-Intake-and-Follow-Workflow_~022109884137000949070/",
+        "date": "2026-10-13",
+        "type": "buyer_signal",
+        "note": "A specific posted $200 fixed-price lead-intake/CRM/approval workflow request; posting does not establish a market-wide price"
+      },
+      {
+        "url": "https://www.upwork.com/services/product/development-it-an-ai-lead-qualification-and-follow-up-automation-2113695508247714840",
+        "date": "2026-10-24",
+        "type": "pricing",
+        "note": "Seller advertises $250/$400/$750 tiers; asking prices, not verified sales"
+      },
+      {
+        "url": "https://zapier.com/blog/best-automation-software/",
+        "date": "2026-10-24",
+        "type": "competitor",
+        "note": "Existing Zapier/n8n automation ecosystem; low implementation barrier, competitive pressure"
+      }
+    ],
+    "scores": {
+      "pain_urgency": 4,
+      "willingness_to_pay": 3,
+      "buyer_access": 4,
+      "reuse_feasibility": 5,
+      "distribution": 3,
+      "execution_safety": 4
+    }
+  },
+  {
+    "id": "government-bid-fit-intelligence",
+    "name": "Niche government RFP fit and deadline intelligence",
+    "buyer": "Small contractors responding to federal/state/local solicitations",
+    "problem": "Relevant bids and required documents spread across portals, with labor-intensive screening",
+    "evidence": [
+      {
+        "url": "https://govbidwire.com/pricing",
+        "date": "2026-10-24",
+        "type": "pricing",
+        "note": "Published $39 Premium, $99 Pro, $149 Team monthly; competitor pricing is not proven interest in a new service"
+      },
+      {
+        "url": "https://govbidwire.com/",
+        "date": "2026-10-24",
+        "type": "competitor",
+        "note": "Competitor advertises matching and intelligence; crowded market"
+      },
+      {
+        "url": "https://sam.gov/",
+        "date": "2026-10-24",
+        "type": "public_data",
+        "note": "Primary federal contracting portal; API terms and freshness require review"
+      }
+    ],
+    "scores": {
+      "pain_urgency": 4,
+      "willingness_to_pay": 4,
+      "buyer_access": 2,
+      "reuse_feasibility": 3,
+      "distribution": 2,
+      "execution_safety": 3
+    }
+  },
+  {
+    "id": "vertical-compliance-change-tracking",
+    "name": "Narrow regulatory change and deadline tracking for one industry",
+    "buyer": "Compliance officers in one regulated field",
+    "problem": "Tracking changing obligations across agencies and preserving audit evidence",
+    "evidence": [
+      {
+        "url": "https://www.capterra.com/resources/compliance-software-pricing-models/",
+        "date": "2026-10-24",
+        "type": "pricing",
+        "note": "Cross-category compliance pricing wide; no proof of demand for narrow tracker"
+      },
+      {
+        "url": "https://expertinsights.com/compliance/the-top-regulatory-change-management-software",
+        "date": "2026-10-08",
+        "type": "competitor",
+        "note": "Established vendors and stringent reliability requirements"
+      }
+    ],
+    "scores": {
+      "pain_urgency": 4,
+      "willingness_to_pay": 4,
+      "buyer_access": 2,
+      "reuse_feasibility": 3,
+      "distribution": 2,
+      "execution_safety": 1
+    }
+  },
+  {
+    "id": "invoice-reconciliation-assisted",
+    "name": "Human-reviewed invoice and work-order reconciliation",
+    "buyer": "Businesses managing recurring invoice/PO/work-order reconciliation in accounting systems",
+    "problem": "Manual cross-checking, duplicates, missing docs and slow month-end exception review",
+    "evidence": [
+      {
+        "url": "https://www.upwork.com/freelance-jobs/apply/Invoice-Reconciliation-and-Automation_~022107160911062706208/",
+        "date": "2026-10-24",
+        "type": "buyer_signal",
+        "note": "An ongoing buyer job specifies invoice reconciliation and automation at $16-$35 hourly; not verified completed sale"
+      },
+      {
+        "url": "https://www.upwork.com/hire/system-automation-freelancers/",
+        "date": "2026-10-24",
+        "type": "pricing",
+        "note": "Upwork estimates paid workflow audit/build project cost bands, broad category not an exact comparable quote"
+      },
+      {
+        "url": "https://zapier.com/blog/best-automation-software/",
+        "date": "2026-10-24",
+        "type": "competitor",
+        "note": "Low-code vendors already enable workflows; financial data makes QA and privacy nontrivial"
+      },
+      {
+        "url": "https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-for-Invoice-Processing-App-Long-Term_~022113077029286601014/",
+        "date": "2026-10-24",
+        "type": "buyer_signal",
+        "note": "Another project recruits invoice extraction app implementation at $50-$60 hourly; requires access controls and review"
+      }
+    ],
+    "scores": {
+      "pain_urgency": 4,
+      "willingness_to_pay": 3,
+      "buyer_access": 3,
+      "reuse_feasibility": 4,
+      "distribution": 3,
+      "execution_safety": 2
+    }
+  },
+  {
+    "id": "competitor-price-monitoring",
+    "name": "Niche merchant competitor-price and product-variant monitoring",
+    "buyer": "Ecommerce sellers managing catalogs with hundreds or thousands of SKUs",
+    "problem": "Manual competitor URL/variant matching, out-of-stock flags and recurring spreadsheet updates",
+    "evidence": [
+      {
+        "url": "https://www.upwork.com/freelance-jobs/apply/Build-Automated-Competitor-Price-Tracker-for-500-Products_~022112874893029610294/",
+        "date": "2026-10-21",
+        "type": "buyer_signal",
+        "note": "Buyer asks to monitor 2,500+ products for $50 fixed budget, which may make the custom service uneconomic"
+      },
+      {
+        "url": "https://prisync.com/pricing-solutions/",
+        "date": "2026-10-24",
+        "type": "pricing",
+        "note": "Provider advertises monitoring at $99/month for up to 100 products and up to $399/month for 5,000; list prices only"
+      },
+      {
+        "url": "https://shopify.prisync.com/",
+        "date": "2026-10-24",
+        "type": "competitor",
+        "note": "A mature competitor with Shopify integration and free trials; product matching and platform access are constraints"
+      }
+    ],
+    "scores": {
+      "pain_urgency": 4,
+      "willingness_to_pay": 2,
+      "buyer_access": 3,
+      "reuse_feasibility": 3,
+      "distribution": 2,
+      "execution_safety": 2
+    }
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "lead-intake-approval-workflow",
+    "name": "Small-business lead intake, CRM update and approval-gated follow-ups",
+    "buyer": "Owner/operators using one website form or inbox and a CRM",
+    "problem": "Leads are manually copied and follow-ups are delayed or forgotten",
+    "evidence": [
+      {
+        "url": "https://www.upwork.com/freelance-jobs/apply/Automation-Specialist-Needed-for-Lead-Intake-and-Follow-Workflow_~022109884137000949070/",
+        "date": "2026-10-13",
+        "type": "buyer_signal",
+        "note": "A specific posted $200 fixed-price lead-intake/CRM/approval workflow request; posting does not establish a market-wide price"
+      },
+      {
+        "url": "https://www.upwork.com/services/product/development-it-an-ai-lead-qualification-and-follow-up-automation-2113695508247714840",
+        "date": "2026-10-24",
+        "type": "pricing",
+        "note": "Seller advertises $250/$400/$750 tiers; asking prices, not verified sales"
+      },
+      {
+        "url": "https://zapier.com/blog/best-automation-software/",
+        "date": "2026-10-24",
+        "type": "competitor",
+        "note": "Existing Zapier/n8n automation ecosystem; low implementation barrier, competitive pressure"
+      }
+    ],
+    "scores": {
+      "pain_urgency": 4,
+      "willingness_to_pay": 3,
+      "buyer_access": 4,
+      "reuse_feasibility": 5,
+      "distribution": 3,
+      "execution_safety": 4
+    }
+  },
+  {
+    "id": "government-bid-fit-intelligence",
+    "name": "Niche government RFP fit and deadline intelligence",
+    "buyer": "Small contractors responding to federal/state/local solicitations",
+    "problem": "Relevant bids and required documents spread across portals, with labor-intensive screening",
+    "evidence": [
+      {
+        "url": "https://govbidwire.com/pricing",
+        "date": "2026-10-24",
+        "type": "pricing",
+        "note": "Published $39 Premium, $99 Pro, $149 Team monthly; competitor pricing is not proven interest in a new service"
+      },
+      {
+        "url": "https://govbidwire.com/",
+        "date": "2026-10-24",
+        "type": "competitor",
+        "note": "Competitor advertises matching and intelligence; crowded market"
+      },
+      {
+        "url": "https://sam.gov/",
+        "date": "2026-10-24",
+        "type": "public_data",
+        "note": "Primary federal contracting portal; API terms and freshness require review"
+      }
+    ],
+    "scores": {
+      "pain_urgency": 4,
+      "willingness_to_pay": 4,
+      "buyer_access": 2,
+      "reuse_feasibility": 3,
+      "distribution": 2,
+      "execution_safety": 3
+    }
+  },
+  {
+    "id": "vertical-compliance-change-tracking",
+    "name": "Narrow regulatory change and deadline tracking for one industry",
+    "buyer": "Compliance officers in one regulated field",
+    "problem": "Tracking changing obligations across agencies and preserving audit evidence",
+    "evidence": [
+      {
+        "url": "https://www.capterra.com/resources/compliance-software-pricing-models/",
+        "date": "2026-10-24",
+        "type": "pricing",
+        "note": "Cross-category compliance pricing wide; no proof of demand for narrow tracker"
+      },
+      {
+        "url": "https://expertinsights.com/compliance/the-top-regulatory-change-management-software",
+        "date": "2026-10-08",
+        "type": "competitor",
+        "note": "Established vendors and stringent reliability requirements"
+      }
+    ],
+    "scores": {
+      "pain_urgency": 4,
+      "willingness_to_pay": 4,
+      "buyer_access": 2,
+      "reuse_feasibility": 3,
+      "distribution": 2,
+      "execution_safety": 1
+    }
+  }
+]

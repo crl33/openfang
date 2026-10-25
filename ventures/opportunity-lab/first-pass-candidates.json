@@ -94,5 +94,79 @@
       "distribution": 2,
       "execution_safety": 1
     }
+  },
+  {
+    "id": "invoice-reconciliation-assisted",
+    "name": "Human-reviewed invoice and work-order reconciliation",
+    "buyer": "Businesses managing recurring invoice/PO/work-order reconciliation in accounting systems",
+    "problem": "Manual cross-checking, duplicates, missing docs and slow month-end exception review",
+    "evidence": [
+      {
+        "url": "https://www.upwork.com/freelance-jobs/apply/Invoice-Reconciliation-and-Automation_~022107160911062706208/",
+        "date": "2026-10-24",
+        "type": "buyer_signal",
+        "note": "An ongoing buyer job specifies invoice reconciliation and automation at $16-$35 hourly; not verified completed sale"
+      },
+      {
+        "url": "https://www.upwork.com/hire/system-automation-freelancers/",
+        "date": "2026-10-24",
+        "type": "pricing",
+        "note": "Upwork estimates paid workflow audit/build project cost bands, broad category not an exact comparable quote"
+      },
+      {
+        "url": "https://zapier.com/blog/best-automation-software/",
+        "date": "2026-10-24",
+        "type": "competitor",
+        "note": "Low-code vendors already enable workflows; financial data makes QA and privacy nontrivial"
+      },
+      {
+        "url": "https://www.upwork.com/freelance-jobs/apply/Full-Stack-Developer-for-Invoice-Processing-App-Long-Term_~022113077029286601014/",
+        "date": "2026-10-24",
+        "type": "buyer_signal",
+        "note": "Another project recruits invoice extraction app implementation at $50-$60 hourly; requires access controls and review"
+      }
+    ],
+    "scores": {
+      "pain_urgency": 4,
+      "willingness_to_pay": 3,
+      "buyer_access": 3,
+      "reuse_feasibility": 4,
+      "distribution": 3,
+      "execution_safety": 2
+    }
+  },
+  {
+    "id": "competitor-price-monitoring",
+    "name": "Niche merchant competitor-price and product-variant monitoring",
+    "buyer": "Ecommerce sellers managing catalogs with hundreds or thousands of SKUs",
+    "problem": "Manual competitor URL/variant matching, out-of-stock flags and recurring spreadsheet updates",
+    "evidence": [
+      {
+        "url": "https://www.upwork.com/freelance-jobs/apply/Build-Automated-Competitor-Price-Tracker-for-500-Products_~022112874893029610294/",
+        "date": "2026-10-21",
+        "type": "buyer_signal",
+        "note": "Buyer asks to monitor 2,500+ products for $50 fixed budget, which may make the custom service uneconomic"
+      },
+      {
+        "url": "https://prisync.com/pricing-solutions/",
+        "date": "2026-10-24",
+        "type": "pricing",
+        "note": "Provider advertises monitoring at $99/month for up to 100 products and up to $399/month for 5,000; list prices only"
+      },
+      {
+        "url": "https://shopify.prisync.com/",
+        "date": "2026-10-24",
+        "type": "competitor",
+        "note": "A mature competitor with Shopify integration and free trials; product matching and platform access are constraints"
+      }
+    ],
+    "scores": {
+      "pain_urgency": 4,
+      "willingness_to_pay": 2,
+      "buyer_access": 3,
+      "reuse_feasibility": 3,
+      "distribution": 2,
+      "execution_safety": 2
+    }
   }
 ]

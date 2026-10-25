@@ -2,7 +2,7 @@
 
 Scope: reusable, business-neutral research and capital allocation. No existing website or product is presumed economically worthwhile.
 
-STATUS 2026-10-24: Four OpenFang agent manifests, an initial research snapshot and a deterministic ranking script plus tests. No live OpenFang daemon, agent conversation, scheduled run, buyer contact, or revenue has been verified. The CLI's local tests are not agent orchestration tests.
+STATUS 2026-10-24: Four OpenFang agent manifests, a five-market research snapshot and a deterministic ranking script plus tests. No live OpenFang daemon, agent conversation, scheduled run, buyer contact, or revenue has been verified. The CLI's local tests are not agent orchestration tests.
 
 ## Reuse and architecture
 
@@ -60,10 +60,12 @@ The evaluator has six explicit 0..5 editorial scores (not measured predictions):
 
 A direct paid invoice beats expressed interest; a public buyer job beats competitor advertised prices; Reddit/X anecdotes cannot establish the market. Never record imagined or pending revenue as received money. A rank is a research prioritization, not expected profits.
 
-Initial desk-research results (researcher-entered judgments, independently recalculated by score.py):
+Initial desk-research results (researcher-entered judgments; these editorial scores are calculated by score.py):
 - Lead-intake, one-CRM and approval-gated follow-up service: 76/100, RANKABLE_UNVALIDATED. A specific $200 Upwork buyer listing dated Oct 13 and public competing services priced at $250/$400/$750. These are not our sales.
+- Human-reviewed invoice / work-order reconciliation: 65/100, RANKABLE_UNVALIDATED. Direct hourly buyer jobs exist; privacy and financial correctness require real QA.
 - Narrow public-bid intelligence: 61/100, MORE_RESEARCH_REQUIRED. GovBidWire's official prices establish an existing paid category, but not demand for a new service.
-- Vertical compliance-change monitoring: 57/100, MORE_RESEARCH_REQUIRED. Expensive, crowded category with difficult correctness requirements and no buyer signal yet.
+- Vertical compliance-change monitoring: 57/100, MORE_RESEARCH_REQUIRED.
+- Competitor-product price monitoring: 55/100, RANKABLE_UNVALIDATED. Direct buyer request exists, but a $50 budget for 2,500 SKUs suggests major margin and maintenance concerns. Expensive, crowded category with difficult correctness requirements and no buyer signal yet.
 
 ## Stop conditions / blockers
 
